@@ -29,6 +29,5 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars,index){
 }
 //removed the 1st element from the array and mutated the array
 function removeElementFromBeginningOfArray(chocolateBars){
-  chocolateBars.slice(1);
-  return chocolateBars;
+  return chocolateBars.slice(1);
 }
