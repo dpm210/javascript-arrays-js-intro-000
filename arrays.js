@@ -24,11 +24,11 @@ function accessElementInArray(chocolateBars,index){
 }
 //accessed the second element of chocolate bars using index 2 
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars,index){
-  chocolateBars.shift(1);
+  chocolateBars.shift();
   return chocolateBars;
 }
 //removed the 1st element from the array and mutated the array
 function removeElementFromBeginningOfArray(chocolateBars){
-  chocolateBars.slice();
+  chocolateBars.slice(1);
   return chocolateBars;
 }
