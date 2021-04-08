@@ -23,4 +23,7 @@ function accessElementInArray(chocolateBars,index){
   return(chocolateBars[2]);
 }
 //accessed the second element of chocolate bars using index 2 
-function 
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars,index){
+  chocolateBars.shift(1);
+  return chocolateBars;
+}
