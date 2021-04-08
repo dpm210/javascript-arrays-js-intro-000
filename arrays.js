@@ -36,3 +36,5 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   chocolateBars.pop();
   return chocolateBars;
 }
+//removed element from end of the array and mutated it using pop 
+function 
