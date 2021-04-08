@@ -22,3 +22,5 @@ function destructivelyAddElementToEndOfArray(chocolateBars,foo){
 function accessElementInArray(chocolateBars,index){
   return(chocolateBars[2]);
 }
+//accessed the second element of chocolate bars using index 2 
+function 
