@@ -33,5 +33,6 @@ function removeElementFromBeginningOfArray(chocolateBars){
 }
 //removed the first element without mutating the original element
 function destructivelyRemoveElementFromEndOfArray(chocolateBars){
-  return chocolateBars.pop();
+  chocolateBars.pop();
+  return chocolateBars;
 }
